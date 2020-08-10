@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.game{
+    background: rgb(61, 138, 254);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-59%);
+    width: 450px;
+    height: 515px;
+    border: 1px solid black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 441);
+    padding: 1.5rem;
+}
+.box{
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 75px;
+    width: 67px;
+}
+.reset{
+position: absolute;
+top: 95vh;
+left: 50px;
+transform: translate(-50%);
+border: 1px solid black;
+width: 5rem;
+text-align: center;
+cursor:pointer;
+}

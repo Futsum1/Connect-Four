@@ -6,28 +6,26 @@
 h1{
     text-align: center;
     position: relative;
-    right: 30px;
     top: 20px;
     padding: 20px ;
     font-style: italic;
-    
+    color: lightblue
+}
+#won{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: red;
 }
 .game{
-    background: rgb(118, 166, 237);
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-59%);
+    background: lightblue;
+    margin: 0 auto;
     width: 450px;
     height: 515px;
     border: 1px solid black;
     box-shadow: 5px 5px rgba(0, 0, 0, 441);
-    padding: 1.5rem;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    padding: 1.5rem;  
 }
-
 .box{
     background: white;
     border: 1px solid black;
@@ -35,43 +33,14 @@ h1{
     height: 75px;
     width: 67px;
 }
-/*.reset{
-    position: relative;
-    top: 70vh;
-    left: 12rem;
-    transform: translate(-50%);
-    border: 1px solid black;
-    width: 5rem;
-    text-align: center;
-    cursor:pointer;
-    font-style: italic;
-    background-color: silver;
-    color: blue;
-    position: fixed;
-    }
-    .reset{
-     position: relative;
-     margin: 30;
-     
-     width: 90px;
-     padding: 1px;
-     background-color: blue;
-     border-radius: 5px;
-     color: white;
-     text-align: center;
-    }*/
   .reset{
-    display: flex;
-    justify-content: center;
     position: fixed;
     top: 85%;
     left: 50%;
     transform: translate(-59%);
-    background-color: blue;
-     border-radius: 1px;
-     color: white;
+    background-color: black;
+    border-radius: 1px;
+    color: white;
   }    
-      
-    
       
     

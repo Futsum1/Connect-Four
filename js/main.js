@@ -1,7 +1,7 @@
 const lookup = {
     "1" : "red",
     "-1" : "lime",
-    null : "white",
+    null : "white", 
 };
 // app variables
 let gameBoard, playerTurn, winner;
@@ -25,8 +25,7 @@ function initialize() {
 } 
 
 function render(){
-    //gameBoard.forEach(function (cirlce, idx) {
-       // circles[idx].style.backgroundColor = lookup[cirlce];
+    
     if (winner) {
         msgWin.innerText =  lookup[playerTurn] + " won ";
     } else {
@@ -56,9 +55,11 @@ function updateBoard(event) {
      return gameBoard.some(function(element, idx) {
          // horizontal
          return (idx % 6 < 3 && Math.abs(gameBoard[idx] + gameBoard[idx + 1] + gameBoard[idx + 2] + gameBoard[idx + 3]) === 4) ||
-         // ver
+         // veritcal
          (idx < 18 && Math.abs(gameBoard[idx] + gameBoard[idx + 6] + gameBoard[idx + 12] + gameBoard[idx + 18]) === 4) ||
+         // diagonal right to left
          (idx % 6 < 3 && Math.abs(gameBoard[idx] + gameBoard[idx + 7] + gameBoard[idx + 14] + gameBoard[idx + 21]) === 4) ||
+         // diagonal left to right
          (idx % 6 > 2 && idx < 18 && Math.abs(gameBoard[idx] + gameBoard[idx + 5] + gameBoard[idx + 10] + gameBoard[idx + 15]) === 4)
      })
  }

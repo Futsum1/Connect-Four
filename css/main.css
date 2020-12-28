@@ -1,3 +1,10 @@
+body{background: #6c8bf3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #caa1a1, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5b5656, #4c6fe2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+}
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +26,7 @@ h1{
 }
 .game{
     background: lightblue;
-    margin: 0 auto;
+    margin: 50px auto;
     width: 450px;
     height: 515px;
     border: 1px solid black;
@@ -35,12 +42,13 @@ h1{
 }
   .reset{
     position: fixed;
-    top: 85%;
+    top: 80%;
     left: 50%;
+    font-size: 30px;
     transform: translate(-59%);
-    background-color: black;
-    border-radius: 1px;
-    color: white;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
   }    
       
     

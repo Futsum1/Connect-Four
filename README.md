@@ -7,7 +7,7 @@
 ## Feature:
 #### This game features a two-layer vertical grid with colored discs for two players, plus blocking discs. The object of the game is also to get 4 in a row for a specific color of discs.
 #
-## The Language: 
+## Language Use: 
 ##### HTML, CSS, Javascript. 
 #
 ## Getting Started:
